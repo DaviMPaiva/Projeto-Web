@@ -1,0 +1,82 @@
+body {
+    background-image: url('starts.gif');
+    background-color: rgb(4, 3, 15);
+    padding: 0px
+}
+
+h2,
+h3,
+h3,
+h4 {
+    text-align: center;
+    font-family: monospace;
+    color: blanchedalmond;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+}
+
+.center-menu {
+    padding: 0%;
+    height: 100pt;
+}
+
+.container {
+    padding: 10%;
+    height: 100pt;
+}
+
+h2 {
+    animation: typing 9s;
+    font-size: 3vw;
+}
+
+h3 {
+    animation: typing 7s;
+    font-size: 1.9vw;
+}
+
+h4 {
+    animation: typing 5s;
+    font-size: 1.9vw;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+.b_proximo {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+img {
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    padding: 0%;
+    border-radius: 100%;
+}
